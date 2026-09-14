@@ -26,6 +26,11 @@ format:
 ]
 ```
 
+
+```{=typst}
+#show heading.where(level:1): set text(fill: brand-color.primary)
+```
+
 ## Summary
 
 This is a {{< meta brs-release.status >}} release covering

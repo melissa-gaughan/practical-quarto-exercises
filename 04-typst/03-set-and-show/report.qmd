@@ -21,6 +21,11 @@ format:
 ]
 ```
 
+```{=typst}
+#set par(leading: 1em)
+#show heading.where(level: 1): set align(center)
+```
+
 ## Summary
 
 This is a {{< meta brs-release.status >}} release covering
@@ -33,8 +38,8 @@ the [methodology notes](https://example.gov/brs/methods).
 
 **All figures in this release are *provisional*.**
 
-> Benchmarking aligns the survey estimates with the annual census of
-> employment.
+Benchmarking aligns the survey estimates with the annual census of
+employment.
 
 ## Industry detail
 
