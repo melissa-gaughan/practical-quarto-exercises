@@ -46,3 +46,11 @@ ggplot(penguins, aes(x = flipper_length_mm, y = bill_length_mm)) +
   ) +
   theme_minimal()
 ```
+
+
+```{r}
+test <- penguins |>
+  rename(penguin_species = species) |>
+  arrange(bill_depth_mm) |>
+  filter(island == "Biscoe")
+```

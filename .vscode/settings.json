@@ -1,0 +1,35 @@
+{
+    "[quarto]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "quarto.quarto",
+        "editor.wordWrap": "on",
+        "editor.guides.bracketPairs": "active",
+        "editor.language.brackets": [
+            [
+                ":::",
+                ":::"
+            ]
+        ],
+        "editor.language.colorizedBracketPairs": [
+            [
+                ":::",
+                ":::"
+            ]
+        ]
+    },
+    "editor.rulers": [80, { "color": "#b22222", "column": 120 }],
+    "files.watcherExclude": { "**/.quarto/**": true },
+    "search.exclude": {
+        "**/.quarto": true,
+        "**/_freeze": true
+    },
+    "explorer.expandSingleFolderWorkspaces": true,
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "notebook.formatOnCellExecution": true,
+    "[r]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Posit.air-vscode"
+    },
+    "ai.enabled": true
+}
