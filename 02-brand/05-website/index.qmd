@@ -1,6 +1,12 @@
 ---
 title: Bureau of Regional Statistics
 subtitle: Regional data, clearly reported
+website:
+  navbar:
+    background: primary
+theme: 
+    light: brand
+    dark: brand
 ---
 
 {{< brand logo medium >}}

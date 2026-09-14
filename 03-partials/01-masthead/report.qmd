@@ -10,6 +10,7 @@ format:
   html:
     template-partials:
       - title-block.html
+masthead: _brand/brs-logo.svg
 ---
 
 ## Summary
